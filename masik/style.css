@@ -49,7 +49,7 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 h2{
-    font-size: 500%;
+    font-size: 400%;
     font-weight: 100;
     font-family: 'Courier New', monospace;
     color: white;
@@ -64,4 +64,13 @@ h2{
     color: white;
     float: right;
     margin-right: 5%;
+}
+img{
+    display: flex;
+}
+h3{
+    color: aliceblue;
+    
+
+
 }
