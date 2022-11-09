@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+
+}
+.logo {
+    width: 20%;
+    margin-left: 0%;
+    margin-top: 0;
+}
+.menu{
+    width: 4%;
+    margin-right: -50%;
+    margin-top: 1.2%;
+    float: right;
+    cursor: pointer;
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px ;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin-top: 0%;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 100px;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 100;
+}
+nav ul li a:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.video{
+    width: 100%;
+    margin-top: 6%;
+}
+h1{
+    color: white;
+    margin-top: -45%;
+    font-size: 450%;
+    text-align: center;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+}
+.ismerk {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+ 
+.keszitette{
+    font-size: 280%;
+    color: white;
+    letter-spacing: 25px;
+    margin-top: 15%;
+    text-align: center;
+}
+.nevek p{
+    font-size: 240%;
+    color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    letter-spacing: 8px;
+}
+.ne{
+    margin-top: 5%;
+}
+.nev {
+    margin-top: -4.4%;
+    text-align: center;
+}
+.neve {
+    text-align: right;
+    margin-top: -4.3%;
+}
+.kaveelr img{
+    width: 100%;
+    margin-top:7%;
+}
+.email{
+    margin-top: -65%;
+    margin-left: 10%;
+}
+.irjon{
+    font-size: 300%;
+}
+.email a{
+    color: black;
+    font-size: 150%;
+    margin-left: 2%;
+}
+.telefon {
+    margin-left: 70%;
+    margin-top: -9.5%;
+
+}
+.telszam{
+    font-size: 300%;
+}
+.szam{
+    font-size: 150%;
+    margin-left: 10%;
+}
