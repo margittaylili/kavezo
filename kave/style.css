@@ -13,6 +13,7 @@ body{
     margin-top: 1.2%;
     float: right;
     cursor: pointer;
+    display: none;
 }
 nav{
     position: absolute;
@@ -23,6 +24,7 @@ nav{
     box-sizing: border-box;
     background-color: white;
     border-bottom: 1px ;
+    margin-left: 8px;
 }
 nav ul{
     list-style: none;
@@ -73,23 +75,14 @@ h1{
     margin-top: 15%;
     text-align: center;
 }
-.nevek p{
-    font-size: 240%;
+.nevek table{
+    width: 100%;
+}
+.nevek th{
+    font-size: 200%;
     color: white;
-    margin-left: 6%;
-    margin-right: 6%;
-    letter-spacing: 8px;
-}
-.ne{
-    margin-top: 5%;
-}
-.nev {
-    margin-top: -4.4%;
+    letter-spacing: 10px;
     text-align: center;
-}
-.neve {
-    text-align: right;
-    margin-top: -4.3%;
 }
 .kaveelr img{
     width: 100%;
@@ -118,4 +111,23 @@ h1{
 .szam{
     font-size: 150%;
     margin-left: 10%;
+}
+@media screen (600px){
+    
+    .logo{
+        
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+
+    }
+    nav ul li a{
+        font-size: 10%;
+    }
+    h1{
+        font-size: 10%;
+    }
+
 }
