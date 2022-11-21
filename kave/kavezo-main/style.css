@@ -3,7 +3,8 @@ body {
 } 
 
 h1 {
-    color:azure;
+    font-size: 200%;
+    color:black;
     text-align: center;
 }
 
@@ -14,8 +15,11 @@ p{
 body{
     margin-top: 7%;
 }
+main{
+    margin-top: 10%;
+}
 h2{
-    font-size: 200%;
+    font-size: 150%;
 }
 .logo {
     width: 20%;
